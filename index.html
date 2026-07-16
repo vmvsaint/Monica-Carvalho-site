@@ -46,7 +46,7 @@
   <meta property="og:image" content="https://placehold.co/1200x630/0f3d3e/f5efe4?text=Monica+Carvalho+Consultora+Imobiliaria" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Monica Carvalho — Consultora Imobiliária na Barra da Tijuca" />
+  <meta property="og:image:alt" content="Monica Carvalho — Consultora Imobiliária" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Monica Carvalho | Consultora Imobiliária" />
@@ -63,7 +63,8 @@
 
   <link rel="stylesheet" href="style.css" />
 </head>
-<body id="topo">
+<!-- data-page="home" avisa o script.js que esta é a página principal -->
+<body id="topo" data-page="home">
 
   <!-- ================================================================
        CABEÇALHO FIXO
@@ -139,7 +140,7 @@
       <div class="container about__grid">
         <figure class="about__media reveal">
           <!-- FOTO-MONICA (retrato principal) -->
-          <img src="imagem_monica.webp"
+          <img src="imagens/main-site/imagem_monica.webp"
                alt="Monica Carvalho, consultora imobiliária na Barra da Tijuca" loading="lazy" width="800" height="1000" />
           <figcaption class="about__chip">CRECI · <span>55641</span></figcaption>
         </figure>
@@ -202,19 +203,25 @@
           <p>Confira as oportunidades selecionadas ou peça uma curadoria de acordo com o seu perfil.</p>
         </div>
 
-        <!-- Filtros: os valores de data-filter correspondem ao campo
-             "tipo" de cada imóvel no script.js -->
-        <div class="filters reveal" role="group" aria-label="Filtrar imóveis">
-          <button class="filter-btn is-active" data-filter="todos" aria-pressed="true">Todos</button>
-          <button class="filter-btn" data-filter="venda" aria-pressed="false">Venda</button>
-          <button class="filter-btn" data-filter="locacao" aria-pressed="false">Locação</button>
-          <button class="filter-btn" data-filter="lancamento" aria-pressed="false">Lançamentos</button>
+        <!-- Estes botões agora são LINKS: levam para a página
+             imoveis.html já com o filtro escolhido. -->
+        <div class="filters reveal" role="group" aria-label="Ver imóveis por categoria">
+          <a class="filter-btn" href="imoveis.html">Todos</a>
+          <a class="filter-btn" href="imoveis.html?tipo=venda">Venda</a>
+          <a class="filter-btn" href="imoveis.html?tipo=locacao">Locação</a>
+          <a class="filter-btn" href="imoveis.html?tipo=lancamento">Lançamentos</a>
         </div>
 
-        <!-- Os cards de imóveis são inseridos aqui pelo script.js -->
+        <!-- Os cards de imóveis são inseridos aqui pelo script.js,
+             a partir da lista IMOVEIS do arquivo dados.js.
+             Cada card leva para a página de detalhes (imovel.html). -->
         <div class="properties-grid" id="propertiesGrid" aria-live="polite"></div>
 
         <p class="properties-note reveal">Os imóveis exibidos podem sofrer alterações de disponibilidade, valores e condições.</p>
+
+        <div class="section-more reveal">
+          <a href="imoveis.html" class="btn btn--outline" aria-label="Ver o catálogo completo de imóveis">Ver catálogo completo</a>
+        </div>
       </div>
     </section>
 
@@ -275,7 +282,7 @@
     <div class="container footer__inner">
       <a href="#topo" class="logo" aria-label="Monica Carvalho — voltar ao início">
         <span class="logo__badge">MC</span>
-        <span class="logo__text"><strong>Monica Carvalho</strong><small>Consultora Imobiliária · Barra da Tijuca</small></span>
+        <span class="logo__text"><strong>Monica Carvalho</strong><small>Consultora Imobiliária</small></span>
       </a>
       <p class="footer__tagline">Mais do que imóveis: novos começos conduzidos com cuidado.</p>
       <nav class="footer__links" aria-label="Contatos">
@@ -298,6 +305,8 @@
     </svg>
   </a>
 
+  <!-- dados.js (contatos + imóveis) precisa vir ANTES do script.js -->
+  <script src="dados.js"></script>
   <script src="script.js" defer></script>
 </body>
 </html>
