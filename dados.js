@@ -86,6 +86,7 @@ const IMOVEIS = [
     caracteristicas: [
       "Frontal mar",
       "Sol da manhã",
+      "Andar alto",
       "Balsa para praia",
       "Vista mar",
       "Clube",
