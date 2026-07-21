@@ -110,6 +110,47 @@ const IMOVEIS = [
       "imagens/id1/vista.webp",
     ],
   },
+
+   {
+    id: 3,
+    tipo: "venda",
+    titulo: "Santa Monica Jardins",
+    bairro: "Barra da Tijuca · Santa Monica Jardins",
+    preco: "R$ 4.550.000",
+    quartos: "3 quartos",
+    banheiros: "3 suítes",
+    area: "260 m²",
+    vagas: "2 vaga",
+    descricao: "Cond. R$5.163,63 · IPTU R$1.054,80",
+    descricaoCompleta:
+      "Santa Monica Jardins.\n\n" +
+      "Apartamento espetacular, para alugar no Santa Monica Jardins. \n\n" +
+      "Magnífico Apartamento para venda no Santa Mônica Jardins. Decorado por Arquiteto, armários planejado. Composto por uma sala confortável em três ambientes. Varanda com linda vista para a piscina, e toda área arborizada do condomínio. Possui um ótimo lavabo, transformado em 3 suítes. Sendo a suíte master com closet e banheira de hidromassagem. Copa cozinha super planejada. Dependência completa de empregada. Área de serviço separada. Condomínio clube, oferece segurança armada, e total infraestrutura, inclusive com academia da Companhia Atlética. Excelente localização, fica ao lado do supermercado Zona sul, podendo ir a pé, e em frente ao Shopping vogue Square. Bem pertinho do Shopping Rio Design, Novo Leblon. Fica próximo ás escolas Americana, britânica, Santo Agostinho, Carolina Patrício. Agende a sua visita, conheça seu novo imóvel, e venha morar com conforto, segurança e qualidade de vida!!! Não perca tempo!",
+    caracteristicas: [
+      "Maior planta do condomínio",
+      "Vista interna piscina",
+      "Planta circular",
+      "Splits instalados",
+      "Todo planejado",
+      "Dependência completa de empregada"
+    ],
+    condominio: "R$ 5.163,63/mês",
+    iptu: "R$ 1.054,80/mês",
+    imagem: "imagens/id3/principal.webp",
+    fotos: [
+      "imagens/id3/varanda.webp",
+      "imagens/id3/varanda2.webp",
+      "imagens/id3/sala.webp",
+      "imagens/id3/banheiro.webp",
+      "imagens/id3/banheiro2.webp",
+      "imagens/id3/lavabo.webp",
+      "imagens/id3/quarto.webp",
+      "imagens/id3/escritorio.webp",
+      "imagens/id3/cozinha.webp",
+      "imagens/id3/cozinha2.webp",
+      "imagens/id3/vista.webp"
+    ],
+  },
   // ▼ Cole novos imóveis DE VENDA aqui embaixo
 
   /* ==============================================================
