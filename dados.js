@@ -120,11 +120,11 @@ const IMOVEIS = [
     quartos: "3 quartos",
     banheiros: "3 suítes",
     area: "260 m²",
-    vagas: "2 vaga",
+    vagas: "3 vagas",
     descricao: "Cond. R$5.163,63 · IPTU R$1.054,80",
     descricaoCompleta:
       "Santa Monica Jardins.\n\n" +
-      "Apartamento espetacular, para alugar no Santa Monica Jardins. \n\n" +
+      "Apartamento espetacular, para comprar no Santa Monica Jardins. \n\n" +
       "Magnífico Apartamento para venda no Santa Mônica Jardins. Decorado por Arquiteto, armários planejado. Composto por uma sala confortável em três ambientes. Varanda com linda vista para a piscina, e toda área arborizada do condomínio. Possui um ótimo lavabo, transformado em 3 suítes. Sendo a suíte master com closet e banheira de hidromassagem. Copa cozinha super planejada. Dependência completa de empregada. Área de serviço separada. Condomínio clube, oferece segurança armada, e total infraestrutura, inclusive com academia da Companhia Atlética. Excelente localização, fica ao lado do supermercado Zona sul, podendo ir a pé, e em frente ao Shopping vogue Square. Bem pertinho do Shopping Rio Design, Novo Leblon. Fica próximo ás escolas Americana, britânica, Santo Agostinho, Carolina Patrício. Agende a sua visita, conheça seu novo imóvel, e venha morar com conforto, segurança e qualidade de vida!!! Não perca tempo!",
     caracteristicas: [
       "Maior planta do condomínio",
