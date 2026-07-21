@@ -112,7 +112,7 @@ const IMOVEIS = [
   },
 
    {
-    id: 3,
+    id: 4,
     tipo: "venda",
     titulo: "Santa Monica Jardins",
     bairro: "Barra da Tijuca · Santa Monica Jardins",
@@ -136,19 +136,19 @@ const IMOVEIS = [
     ],
     condominio: "R$ 5.163,63/mês",
     iptu: "R$ 1.054,80/mês",
-    imagem: "imagens/id3/principal.webp",
+    imagem: "imagens/id4/principal.webp",
     fotos: [
-      "imagens/id3/varanda.webp",
-      "imagens/id3/varanda2.webp",
-      "imagens/id3/sala.webp",
-      "imagens/id3/banheiro.webp",
-      "imagens/id3/banheiro2.webp",
-      "imagens/id3/lavabo.webp",
-      "imagens/id3/quarto.webp",
-      "imagens/id3/escritorio.webp",
-      "imagens/id3/cozinha.webp",
-      "imagens/id3/cozinha2.webp",
-      "imagens/id3/vista.webp"
+      "imagens/id4/varanda.webp",
+      "imagens/id4/varanda2.webp",
+      "imagens/id4/sala.webp",
+      "imagens/id4/banheiro.webp",
+      "imagens/id4/banheiro2.webp",
+      "imagens/id4/lavabo.webp",
+      "imagens/id4/quarto.webp",
+      "imagens/id4/escritorio.webp",
+      "imagens/id4/cozinha.webp",
+      "imagens/id4/cozinha2.webp",
+      "imagens/id4/vista.webp"
     ],
   },
   // ▼ Cole novos imóveis DE VENDA aqui embaixo
