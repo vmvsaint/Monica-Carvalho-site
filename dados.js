@@ -151,6 +151,46 @@ const IMOVEIS = [
       "imagens/id4/vista.webp"
     ],
   },
+
+    {
+    id: 5,
+      tipo: "venda",
+      titulo: "Jardim Europa",
+      bairro: "Barra da Tijuca · Jardim Europa",
+      preco: "R$ 1.570.000",
+      quartos: "3 quartos",
+      banheiros: "3 suítes",
+      area: "95 m²",
+      vagas: "2 vagas",
+      descricao: "Cond. R$2.200,99 · IPTU R$390,00",
+      descricaoCompleta:
+        "Jardim Europa.\n\n" +
+        "Apartamento espetacular à venda no Jardim Europa. \n\n" +
+        "Magnífico Apartamento Completamente reformado, inclusive hidráulica e elétrica. Splits novos instalados. Todo em porcelanato. Armários planejados serão colocados, todos novos. Voltado para o sol da manhã. Sendo a suíte master com closet e banheira de hidromassagem. Copa cozinha super planejada. Composto por uma bela sala integrada a varanda, com linda vista arborizada. Possui 3 quartos, 3 suítes. Copa cozinha e área de serviço, com entrada separada. Condomínio com segurança total, super silencioso e harmônico, balsa para a praia, churrasqueira, parquinho infantil. Box pra cada unidade, vaga dupla coberta. Localização mais que perfeita, fica em frente ao Barra shopping, podendo ir a pé tranquilamente. Agende a sua visita, conheça seu novo imóvel, e venha morar com conforto, segurança e qualidade de vida!!! PRONTO PARA ENTRAR E MORAR! Não perca tempo!",
+      caracteristicas: [
+        "Vaga dupla coberta",
+        "Box Individual",
+        "Balsa para Praia",
+        "Sol da manhã"
+        
+      ],
+      condominio: "R$ 2.200,99/mês",
+      iptu: "R$ 390,00/mês",
+      imagem: "imagens/id5/principal.webp",
+      fotos: [
+        "imagens/id5/varanda.webp",
+        "imagens/id5/varanda2.webp",
+        "imagens/id5/sala.webp",
+        "imagens/id5/banheiro.webp",
+        "imagens/id5/banheiro2.webp",
+        "imagens/id5/lavabo.webp",
+        "imagens/id5/quarto.webp",
+        "imagens/id5/escritorio.webp",
+        "imagens/id5/cozinha.webp",
+        "imagens/id5/cozinha2.webp",
+        "imagens/id5/vista.webp"
+      ],
+    },
   // ▼ Cole novos imóveis DE VENDA aqui embaixo
 
   /* ==============================================================
