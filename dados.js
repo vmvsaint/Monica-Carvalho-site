@@ -179,16 +179,16 @@ const IMOVEIS = [
       imagem: "imagens/id5/principal.webp",
       fotos: [
         "imagens/id5/varanda.webp",
-        "imagens/id5/varanda2.webp",
         "imagens/id5/sala.webp",
+        "imagens/id5/sala2.webp",
         "imagens/id5/banheiro.webp",
         "imagens/id5/banheiro2.webp",
-        "imagens/id5/lavabo.webp",
+        "imagens/id5/banheiro3.webp",
         "imagens/id5/quarto.webp",
-        "imagens/id5/escritorio.webp",
+        "imagens/id5/quarto2.webp",
         "imagens/id5/cozinha.webp",
-        "imagens/id5/cozinha2.webp",
-        "imagens/id5/vista.webp"
+        "imagens/id5/vista.webp",
+        "imagens/id5/vista2.webp"
       ],
     },
   // ▼ Cole novos imóveis DE VENDA aqui embaixo
